@@ -8,4 +8,6 @@ import "github.com/luisbilecki/graphql-fullcycle/graph/model"
 
 type Resolver struct {
 	Categories []*model.Category
+	Courses    []*model.Course
+	Chapters   []*model.Chapter
 }
